@@ -1,0 +1,22 @@
+PUT http://127.0.0.1:8000/api/v1/emp/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "emp_no": 1,
+    "birth_date": "1981-11-26",
+    "first_name": "Abba1111111111",
+    "last_name": "Subba",
+    "gender": "m",
+    "hire_date": "2020-02-15",
+    "salaries": {
+        "salary": 10000,
+        "from_date": "2020-01-02",
+        "to_date": "2020-02-01"
+    },
+    "designations": {
+        "title": "Consultant",
+        "from_date": "2020-01-02",
+        "to_date": "2020-02-01"
+    }
+}
